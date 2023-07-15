@@ -1,4 +1,4 @@
-##Maven Plugin mp url:
+#Maven Plugin mp url:
 
 mvn archetype:generate -DarchetypeGroupId=org.apache.openejb.maven -DarchetypeArtifactId=tomee-webapp-archetype -DarchetypeVersion=1.7.1
 
