@@ -50,16 +50,17 @@ mvn clean install -pl "test-utils" -am
 cd jaspic
 mvn clean test -P liberty-ci-managed
 
+----------------------------------------------
+mvn clean test -Parq-wildfly-remote
 
 
+Username must be alphanumeric with the exception of the following accepted symbols (",", "-", ".", "/", "=", "@", "\")
 
+add-user.bat  -a -u 'quickstartUser#123' -p '123456' -g 'guest'
 
-
-
-
-
-
-
+quickstartUser
+123456
+ <secret value="MTIzNDU2" />
 
 
 
