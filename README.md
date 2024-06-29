@@ -62,9 +62,19 @@ quickstartUser
 123456
  <secret value="MTIzNDU2" />
 
+## Payara5 + Mysql jar => jdbc connection setting
+1. download and copy mysql-connector-j-8.0.33.jar to 
+	glassfish/lib/
+	domain/domain1/lib/
 
+2. asadmin> run command
+	asadmin add-library /path/to/mysql-connector-java-bin.jar
 
+3. add JDBC connect pools:
+	if mysql version >= 8.0 the select Mysql8 else Mysql
+	*set password is needed!
 
+4. ping and testing ok!
 
 
 
